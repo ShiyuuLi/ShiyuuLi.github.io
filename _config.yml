@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Shiyu Li"
   avatar           : "profile.png"
-  bio              : "I am a second-year master's student at the University of Electronic Science and Technology of China (UESTC). I obtained my Bachelor's degree from UESTC. My research interests broadly lie in applied cryptography and security."
+  bio              : 
   location         : "Chengdu, Sichuan, China"
   employer         :
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
