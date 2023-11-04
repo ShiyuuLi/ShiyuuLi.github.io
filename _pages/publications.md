@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-**[Hardening Password-Based Credential Databases"](https://doi.org/10.1109/TIFS.2023.3324326)**. Y. Song, C. Xu, Y. Zhang, and S. Li. IEEE Transactions on Information Forensics and Security, 2023.
+**[Hardening Password-Based Credential Databases](https://doi.org/10.1109/TIFS.2023.3324326)**. Y. Song, C. Xu, Y. Zhang, and S. Li. IEEE Transactions on Information Forensics and Security, 2023.
 
 **[HealthFort: A Cloud-Based eHealth System with Conditional Forward Transparency and Secure Provenance via Blockchain](https://doi.org/10.1109/TMC.2022.3199048)**. S. Li, Y. Zhang, C. Xu, Y. Song, N. Cheng, Z. Liu, Y. Du, and X. Shen. IEEE Transactions on Mobile Computing, 2022.
 
