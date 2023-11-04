@@ -16,7 +16,7 @@ main:
   #   url: /year-archive/
     
   - title: "CV"
-    permalink: blob/5222d797e54963ee7469da3f241a8ba792ff9c61/_pages/CV-Shiyu.pdf
+    url: https://github.com/ShiyuuLi/shiyuuli.github.io/blob/14d1ed27f66f79daa8c634609455b8040cb8d7d6/files/CV-Shiyu.pdf
     
   # - title: "Guide"
   #   url: /markdown/
