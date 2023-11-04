@@ -16,7 +16,7 @@ main:
   #   url: /year-archive/
     
   - title: "CV"
-    url: /cv/
+    url: https://github.com/ShiyuuLi/shiyuuli.github.io/blob/5222d797e54963ee7469da3f241a8ba792ff9c61/_pages/CV-Shiyu.pdf
     
   # - title: "Guide"
   #   url: /markdown/
