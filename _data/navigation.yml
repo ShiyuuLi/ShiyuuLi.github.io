@@ -16,7 +16,7 @@ main:
   #   url: /year-archive/
     
   - title: "CV"
-    url: /tree/master/files/CV-Shiyu.pdf
+    url: /blob/master/files/CV-Shiyu.pdf/
     
   # - title: "Guide"
   #   url: /markdown/
