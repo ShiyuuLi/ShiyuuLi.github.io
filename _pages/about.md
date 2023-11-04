@@ -8,4 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-I am a second-year master's student at the University of Electronic Science and Technology of China (UESTC). My supervisor is Prof. Yuan Zhang. I obtained my Bachelor's degree from UESTC. My research interests broadly lie in applied cryptography and security.
+I am a second-year master's student at the University of Electronic Science and Technology of China (UESTC). My supervisor is [Prof. Yuan Zhang](https://scholar.google.com/citations?user=7rWSrzsAAAAJ&hl=zh-CN&oi=ao). I obtained my Bachelor's degree from UESTC. My research interests broadly lie in applied cryptography and security.
