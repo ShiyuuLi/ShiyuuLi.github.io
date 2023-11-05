@@ -9,7 +9,7 @@ author_profile: true
 
 **[HealthFort: A Cloud-Based eHealth System with Conditional Forward Transparency and Secure Provenance via Blockchain](https://doi.org/10.1109/TMC.2022.3199048)**. S. Li, Y. Zhang, C. Xu, Y. Song, N. Cheng, Z. Liu, Y. Du, and X. Shen. IEEE Transactions on Mobile Computing, 2022.
 
-**[Badge: Blockchain-Assisted Secure Authenticated Data Transmission in Mobile Edge Computing](https://doi.org/10.1109/TMC.2022.3199048)**. S. Li, Y. Zhang, N. Cheng, and Y. Song. IEEE International Conference on Communications, 2022.
+**[Badge: Blockchain-Assisted Secure Authenticated Data Transmission in Mobile Edge Computing](https://doi.org/10.1109/ICC45855.2022.9838606)**. S. Li, Y. Zhang, N. Cheng, and Y. Song. IEEE International Conference on Communications, 2022.
 
 **[BESURE: Blockchain-Based Cloud-Assisted eHealth System with Secure Data Provenance](https://doi.org/10.1109/IWQOS52092.2021.9521289)**. S. Li, Y. Zhang, C. Xu, N. Cheng, Z. Liu, and X. Shen. IEEE/ACM International Symposium on Quality of Service, 2021.
 
