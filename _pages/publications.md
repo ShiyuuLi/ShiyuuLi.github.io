@@ -17,11 +17,11 @@ author_profile: true
 
 ## Manuscripts
 
-**EpiOracle: Privacy-Preserving Cross-Facility Early Warning for Unknown Epidemics**.  S. Li, Y. Zhang, Y. Song, K. Yang, F. Wu, F. Lyu, and Q. Tang.
+**[EpiOracle: Privacy-Preserving Cross-Facility Early Warning for Unknown Epidemics](https://eprint.iacr.org/2023/1779.pdf)**.  S. Li, Y. Zhang, Y. Song, K. Yang, F. Wu, F. Lyu, and Q. Tang.
 
-**Beyond Security: Achieving Fairness in Mailmen-Assisted Timed Data Delivery**. S. Li, Y. Zhang, Y. Song, H. Liu, N. Cheng, H. Li, and K. Yang.
+**[Beyond Security: Achieving Fairness in Mailmen-Assisted Timed Data Delivery](https://eprint.iacr.org/2023/1775.pdf)**. S. Li, Y. Zhang, Y. Song, H. Liu, N. Cheng, H. Li, and K. Yang.
 
-**There Is Always a Way Out! Destruction-Resistant Key Management: Formal Definition and Practical Instantiation**. Y. Song, Y. Zhang, S. Li, W. Li, Z. Lai, and Q. Tang. 
+**[There Is Always a Way Out! Destruction-Resistant Key Management: Formal Definition and Practical Instantiation](https://eprint.iacr.org/2023/1785.pdf)**. Y. Song, Y. Zhang, S. Li, W. Li, Z. Lai, and Q. Tang. 
 
 {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
