@@ -1,30 +1,9 @@
 <!-- start custom footer snippets -->
-<div id="globe-holder"
-     style="position:fixed;right:20px;bottom:20px;z-index:9999;filter:drop-shadow(0 2px 8px rgba(0,0,0,.25));pointer-events:auto;">
+<div style="position:fixed; right:20px; bottom:20px; z-index:9999;">
+  <script
+    type="text/javascript"
+    id="mmvst_globe"
+    src="https://mapmyvisitors.com/globe.js?d=6QQzW8tT_LwyRfGnqG4ViPdCRajnQwTWjOusLwvngzg">
+  </script>
 </div>
-
-<!-- Wrap JS in {% raw %} so Liquid never touches it -->
-{% raw %}
-<script>
-(function () {
-  // Sanity log to prove JS runs and the script block is intact
-  try {
-    console.log("[globe] footer JS running");
-  } catch (e) {}
-
-  // Minimal safe loader (no document.write)
-  var s = document.createElement("script");
-  s.id = "mmvst_globe";
-  s.type = "text/javascript";
-  s.async = true;
-  s.src = "https://mapmyvisitors.com/globe.js?d=6QQzW8tT_LwyRfGnqG4ViPdCRajnQwTWjOusLwvngzg";
-  s.onload = function(){ console.log("[globe] globe.js loaded"); };
-  s.onerror = function(e){ console.error("[globe] failed to load globe.js", e); };
-
-  // Append inside holder so whatever it creates lives in bottom-right
-  var holder = document.getElementById("globe-holder");
-  (holder || document.body || document.documentElement).appendChild(s);
-})();
-</script>
-{% endraw %}
 <!-- end custom footer snippets -->
