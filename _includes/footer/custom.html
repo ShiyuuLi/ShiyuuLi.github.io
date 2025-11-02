@@ -1,3 +1,28 @@
 <!-- start custom footer snippets -->
-<script type="text/javascript" id="mmvst_globe" src="//mapmyvisitors.com/globe.js?d=6QQzW8tT_LwyRfGnqG4ViPdCRajnQwTWjOusLwvngzg"></script>
+<div id="globe-holder"
+     style="position:fixed;right:20px;bottom:20px;z-index:9999;filter:drop-shadow(0 2px 8px rgba(0,0,0,.25));pointer-events:auto;">
+</div>
+
+<script>
+  (function () {
+    // Only show on About page; change condition if you want it site-wide:
+    if (!(window.location.pathname === "/" || document.title.trim() === "About me")) return;
+
+    // Create a placeholder element the widget can use
+    var mount = document.getElementById("globe-holder");
+    if (!mount) return;
+
+    // Load the widget JS safely (no document.write)
+    var s = document.createElement("script");
+    s.id = "mmvst_globe";
+    s.type = "text/javascript";
+    s.src = "https://mapmyvisitors.com/globe.js?d=wrfli7bA6RWUgXR841dTzCKOtRniJBEbsbuem7hoVPU";
+    s.async = true;
+
+    // If the provider script assumes it's inserted inline, some versions
+    // append their canvas next to the script tag. So append the script
+    // *inside* the fixed container to keep it in the corner.
+    mount.appendChild(s);
+  })();
+</script>
 <!-- end custom footer snippets -->
