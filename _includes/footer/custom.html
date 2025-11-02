@@ -1,9 +1,18 @@
 <!-- start custom footer snippets -->
-<div style="position:fixed; right:20px; bottom:20px; z-index:9999;">
-  <script
-    type="text/javascript"
-    id="mmvst_globe"
-    src="https://mapmyvisitors.com/globe.js?d=6QQzW8tT_LwyRfGnqG4ViPdCRajnQwTWjOusLwvngzg">
-  </script>
+<div id="visitor-globe"
+     style="position:fixed; right:20px; bottom:20px; z-index:9999;">
+  <iframe
+    src="https://rf.revolvermaps.com/h/m/a/0/ffffff/128/10/0/000000/ffffff/ff0000"
+    width="160"
+    height="160"
+    frameborder="0"
+    scrolling="no"
+    title="Visitor globe">
+  </iframe>
 </div>
+
+<style>
+  /* Optional: hide on small screens so it doesn't overlap content */
+  @media (max-width: 640px) { #visitor-globe { display: none; } }
+</style>
 <!-- end custom footer snippets -->
