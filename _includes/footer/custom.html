@@ -1,14 +1,14 @@
 <!-- start custom footer snippets -->
-{% raw %}{% if page.title == "About me" %}{% endraw %}
-<div id="globe-holder"
-     style="position:fixed;right:20px;bottom:20px;z-index:2000;
-            filter:drop-shadow(0 2px 8px rgba(0,0,0,.25));pointer-events:auto;">
-  <script
-    type="text/javascript"
-    id="mmvst_globe"
-    src="https://mapmyvisitors.com/globe.js?d=wrfli7bA6RWUgXR841dTzCKOtRniJBEbsbuem7hoVPU"
-    defer>
-  </script>
-</div>
-{% raw %}{% endif %}{% endraw %}
+{% if page.title == "About me" %}
+  <div id="globe-holder"
+       style="position:fixed;right:20px;bottom:20px;z-index:2000;
+              filter:drop-shadow(0 2px 8px rgba(0,0,0,.25));pointer-events:auto;">
+    <script
+      type="text/javascript"
+      id="mmvst_globe"
+      src="https://mapmyvisitors.com/globe.js?d=wrfli7bA6RWUgXR841dTzCKOtRniJBEbsbuem7hoVPU"
+      defer>
+    </script>
+  </div>
+{% endif %}
 <!-- end custom footer snippets -->
