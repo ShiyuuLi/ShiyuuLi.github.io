@@ -1,0 +1,37 @@
+@inproceedings{HLL25,
+  selected={true},
+  title={Lower bounds on inner-product functional encryption from all-or-nothing encryption primitives},
+  author={He, Jinye and Li, Shiyu and Lin, Wei-Kai},
+  booktitle={Theory of Cryptography Conference (TCC)},
+  pages={123--152},
+  year={2025},
+  url = {https://doi.org/10.1007/978-3-032-12293-3_5},
+  abstract = {A functional encryption (FE) is a versatile encryption, where the functional key ${\sf sk}_{\bf v}$ decrypts a ciphertext to the function ${\bf v}({\bf m})$ evaluated on the plaintext ${\bf m}$. The security requires that even when an adversary colludes multiple functional keys, it learns only the evaluations but nothing more about the plaintext. This work considers the adversary obtaining an \emph{unbounded number of colluded keys}, a natural setting for many FE applications. We aim to understand which cryptographic primitives are sufficient to construct an unbounded-collusion FE.
+
+  This work proves negative results: we separate unbounded-collusion FEs from many encryption primitives that are ``all-or-nothing.'' Introduced by Garg, Mahmoody and Mohammed (CRYPTO '17), an all-or-nothing encryption scheme allows an adversary to learn either \emph{the whole plaintext} if the authorized secret key is given; otherwise, the adversary learns \emph{nothing}. Hence, we rule out such FE construction from fully homomorphic encryption (FHE), attribute-based encryption (ABE), and predicate encryptions (PE). Our impossibility holds for private-key and selectively secure FEs for an minimal function class, \emph{inner products}, making the impossibility stronger.
+
+  Our separation is in the ``monolithic model,'' similar to the black-box model, but the primitive is allowed to evaluate a circuit that queries the primitive itself  as an oracle.
+
+  Our result extends the beautiful work of Hajiabadi et al.~(TCC '24), which separated inner-product functional encryption (IPFE) from any primitives that exist in the random oracle model. Our result is perhaps surprising as IPFE was proposed by Abdalla et al.~(PKC '15) to be easier to construct, and indeed there are several IPFEs based on standard \emph{algebraic} assumptions, such as Decisional Diffie-Hellman or Learning-with-Errors. Moreover, \emph{bounded}-collusion FEs for all circuits are constructed in a black-box way from minimal assumptions, i.e., public-key FE from public-key encryption, and secret-key FE from one-way functions, by Ananth and Vaikuntanathan (TCC '19).}
+}
+
+@article{LZS+25,
+  title={EpiOracle: Privacy-Preserving Cross-Facility Early Warning for Unknown Epidemics},
+  author={Li, Shiyu and Zhang, Yuan and Song, Yaqing and Wu, Fan and Lyu, Feng and Yang, Kan and Tang, Qiang},
+  journal={Proceedings on Privacy Enhancing Technologies (PETS)},
+  year={2025},
+  url={https://doi.org/10.56553/popets-2025-0020},
+  abstract={Syndrome-based early epidemic warning plays a vital role in preventing and controlling unknown epidemic outbreaks. It monitors the frequency of each syndrome, issues a warning if some frequency is aberrant, identifies potential epidemic outbreaks, and alerts governments as early as possible. Existing systems adopt a cloud-assisted paradigm to achieve cross-facility statistics on the syndrome frequencies. However, in these systems, all symptom data would be directly leaked to the cloud, which causes critical security and privacy issues. In this paper, we first analyze syndrome-based early epidemic warning systems and formalize two security notions, i.e., symptom confidentiality and frequency confidentiality, according to the inherent security requirements. We propose extsf{EpiOracle}, a cross-facility early warning scheme for unknown epidemics. EpiOracle ensures that the contents and frequencies of syndromes will not be leaked to any unrelated parties; moreover, our construction uses only a symmetric-key encryption algorithm and cryptographic hash functions (e.g., [CBC]AES and SHA-3), making it highly efficient. We formally prove the security of EpiOracle in the random oracle model. We also implement an EpiOracle prototype and evaluate its performance using a set of real-world symptom lists. The evaluation results demonstrate its practical efficiency.}
+}
+
+@article{LZS+24,
+  title={Beyond security: Achieving fairness in mailmen-assisted timed data delivery},
+  author={Li, Shiyu and Zhang, Yuan and Song, Yaqing and Liu, Hongbo and Cheng, Nan and Tao, Dahai and Li, Hongwei and Yang, Kan},
+  journal={IEEE Transactions on Information Forensics and Security (TIFS)},
+  volume={19},
+  pages={6425--6440},
+  year={2024},
+  url={10.1109/TIFS.2024.3416049},
+  abstract={Timed data delivery is a critical service for time-sensitive applications that allows a sender to deliver data to a recipient, but only be accessible at a specific future time. This service is typically accomplished by employing a set of mailmen to complete the delivery mission. While this approach is commonly used, it is vulnerable to attacks from realistic adversaries, such as a greedy sender (who accesses the delivery service without paying the service charge) and malicious mailmen (who release the data prematurely without being detected). Although some research works have been done to address these adversaries, most of them fail to achieve fairness. In this paper, we formally define the fairness requirement for mailmen-assisted timed data delivery and propose a practical scheme, dubbed DataUber, to achieve fairness. DataUber ensures that honest mailmen receive the service charge, lazy mailmen do not receive the service charge, and malicious mailmen are punished. Specifically, DataUber consists of two key techniques: 1) a new cryptographic primitive, i.e., Oblivious and Verifiable Threshold Secret Sharing (OVTSS), enabling a dealer to distribute a secret among multiple participants in a threshold and verifiable way without knowing any one of the shares; and 2) a smart-contract-based complaint mechanism, allowing anyone to become a reporter to complain about a mailman’s misbehavior to a smart contract and receive a reward. Furthermore, we formally prove the security of DataUber and demonstrate its practicality through a prototype implementation.}
+}
+
